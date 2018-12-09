@@ -113,7 +113,7 @@ a:focus {
   margin-bottom: 20px;
 }
 
-.center h2 span {
+.center h1 span {
     color: red;
 
 }
@@ -141,9 +141,15 @@ body > section {
 }
 
 .lead{
-  font-size: 16px;
-  line-height: 24px;
+/*  font-size: 16px; */
+  line-height: 35px;
   font-weight: 400;
+  margin-top: 25px;
+}
+
+.welcome {
+  text-align: left;
+  font-size: 16px;
 }
 
 .transparent-bg {
@@ -1008,7 +1014,7 @@ a.accordion-toggle  i{
 }
 
 #conatcat-info{
-  background: #fff url(../images/contact.png) no-repeat 90% 0;
+  /* background: #fff url(../img/logo/Novus_Logo5.png) no-repeat 90% 0;  */
   padding: 30px 0;
 }
 
