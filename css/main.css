@@ -634,6 +634,9 @@ input.search-form:hover {
   position: relative;
   margin: 5px;
 }
+.recent-work-wrap:hover{
+  box-shadow: 1px 2px 5px #000;
+}
 
 .recent-work-wrap img{
   width: 100%;
@@ -1017,7 +1020,7 @@ a.accordion-toggle  i{
 }
 
 #conatcat-info{
-  background: #fff url(../img/logo/novus-logo6.png) no-repeat 90% 0; 
+  background: #fff url(../img/logo/novus-logo6.png) no-repeat 90% 0;
 }
 
 .contact-info i{
