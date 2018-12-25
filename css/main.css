@@ -145,6 +145,7 @@ body > section {
   line-height: 35px;
   font-weight: 400;
   margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .welcome {
@@ -631,11 +632,13 @@ input.search-form:hover {
 
 .recent-work-wrap {
   position: relative;
+  margin: 5px;
 }
 
 .recent-work-wrap img{
   width: 100%;
 }
+
 
 .recent-work-wrap .recent-work-inner{
   top: 0;
