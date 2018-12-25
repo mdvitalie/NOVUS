@@ -28,7 +28,7 @@ jQuery(function($) {'use strict',
 			itemSelector : '.portfolio-item',
 			layoutMode : 'fitRows'
 		});
-		
+
 		$portfolio_selectors.on('click', function(){
 			$portfolio_selectors.removeClass('active');
 			$(this).addClass('active');
@@ -54,19 +54,35 @@ jQuery(function($) {'use strict',
 		});
 	});
 
-	
-	//goto top
-	$('.gototop').click(function(event) {
-		event.preventDefault();
-		$('html, body').animate({
-			scrollTop: $("body").offset().top
-		}, 500);
-	});	
 
-	//Pretty Photo
-	$("a[rel^='prettyPhoto']").prettyPhoto({
-		social_tools: false
-	});	
-	
+	//Scroll function back-to-top
+	 scroll();
+	function scroll(){
+	  //Scroll function
+	  	$(".scroll").click(function(event){
+	  		event.preventDefault();
+	  		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+	  	});
+
+	    //back to top button function
+	   $('body').prepend('<a href="#header" class="back-to-top scroll" aria-label="back-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>');
+
+	    $(window).scroll(function(){
+	      if($(window).scrollTop() > 400){
+	        $('a.back-to-top').fadeIn("fast");
+	      }else{
+	        $('a.back-to-top').fadeOut("fast");
+	      }
+	    })
+
+	    $('a.back-to-top').click(function(){
+	      $('html,body').animate({
+	        scrollTop: 0
+	      }, 1000);
+	      return false;
+	    });
+
+	}//End of Scroll() function
+
 
 });

@@ -2572,3 +2572,29 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
+
+/*==== Start of Back to top Button === */
+a.back-to-top {
+  display: none;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  bottom: 110px;
+  background-color: rgb(197, 45, 47);
+  border-radius: 5px;
+  border: 2px solid rgb(149, 0, 1);
+  z-index: 99999;
+}
+
+.fa-chevron-up{
+  font-size: 1.8em;
+  color: #fff;
+  padding: .2em;
+}
+a:hover.back-to-top{
+  background-color:rgb(65, 81, 88);
+  border: 2px solid #fff;
+}
+
+/*==== End of Back to top Button === */
