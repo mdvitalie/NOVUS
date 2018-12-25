@@ -113,6 +113,8 @@ a:focus {
   margin-bottom: 20px;
 }
 
+
+
 .center h1 span {
     color: red;
 
@@ -1020,7 +1022,9 @@ a.accordion-toggle  i{
 }
 
 #conatcat-info{
-  background: #fff url(../img/logo/novus-logo6.png) no-repeat 90% 0;
+  /* background: #fff url(../img/logo/novus-logo6.png) no-repeat 90% 0; */
+  background: #fff url(../img/logo/Novus_Logo5.png) no-repeat 90% ;
+  padding: 30px 0;
 }
 
 .contact-info i{
