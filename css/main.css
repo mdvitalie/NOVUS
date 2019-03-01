@@ -1490,7 +1490,9 @@ ul.social_icons li  a i{
   padding-top: 30px;
   margin-bottom: 20px;
 }
-
+.hand_PointDown{
+	font-size: 4rem;
+}
 
 .request {
   bottom: -15px;
