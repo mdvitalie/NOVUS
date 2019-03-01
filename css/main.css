@@ -150,6 +150,10 @@ body > section {
   /*margin-bottom: 50px;*/
   text-align: justify;
 }
+.aboutRed{
+	color:red;
+	font-weight:bold;
+}
 
 .welcome {
   text-align: left;
