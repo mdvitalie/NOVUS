@@ -149,8 +149,11 @@ body > section {
   margin-top: 25px;
   margin-bottom: 50px;
 }
+.aboutHeader{
+	margin-bottom:70px;
+}
 .about{
-	margin-bottom:0px;
+  font-size:16px;
   text-align: justify;
 	
 }
