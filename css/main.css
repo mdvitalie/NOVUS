@@ -147,8 +147,12 @@ body > section {
   line-height: 35px;
   font-weight: 400;
   margin-top: 25px;
-  /*margin-bottom: 50px;*/
+  margin-bottom: 50px;
+}
+.about{
+	margin-bottom:0px;
   text-align: justify;
+	
 }
 .aboutRed{
 	color:red;
