@@ -627,14 +627,14 @@ input.search-form:hover {
   float: left;
   margin-right: 25px;
 }
-
+/*
 .feature-wrap i:hover {
   background: #c52d2f;
   color: #fff;
   box-shadow: inset 0 0 0 5px #c52d2f;
   -webkit-box-shadow: inset 0 0 0 5px #c52d2f;
   border: 3px solid #c52d2f;
-}
+}*/
 
 #recent-works .col-xs-12.col-sm-4.col-md-3{
   padding: 0;
@@ -1491,7 +1491,8 @@ ul.social_icons li  a i{
   margin-bottom: 20px;
 }
 .hand_PointDown{
-	font-size: 4rem;
+	font-size: 5rem;
+	color: red;
 }
 
 .request {
