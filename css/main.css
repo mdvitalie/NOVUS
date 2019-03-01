@@ -147,7 +147,7 @@ body > section {
   line-height: 35px;
   font-weight: 400;
   margin-top: 25px;
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
   text-align: justify;
 }
 
